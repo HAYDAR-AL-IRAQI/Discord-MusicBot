@@ -9,7 +9,7 @@ module.exports = {
         const queue = message.client.queue.get(message.guild.id);
         if (!song) {
             sendError(
-                "Leaving the voice channel because I think there are no songs in the queue. If you like the bot stay 24/7 in voice channel go to `util/playing.js` and remove the line number 15\n\nThank you for using my code! [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot)",
+                "لقد حصل خطأ توجه ل حيدر العراقي وشكرا.",
                 message.channel
             );
             message.client.queue.delete(message.guild.id);
